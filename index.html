@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buzzify - The Ultimate Clock App</title>
+    <meta name="description" content="Download Buzzify, the ultimate clock app for your device.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-elements">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+    
+    <main class="container">
+        <header>
+            <h1 class="logo">Buzzify</h1>
+        </header>
+        
+        <div class="content">
+            <div class="text-section">
+                <h2 class="title">Time reimagined.</h2>
+                <p class="subtitle">Experience the most elegant, precise, and customizable clock app ever built. Download Buzzify today and elevate your daily routine.</p>
+                <a href="Buzzify.apk" download="Buzzify.apk" class="download-btn" id="downloadBtn">
+                    <span class="btn-text">Download APK</span>
+                    <span class="btn-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                    </span>
+                </a>
+                <p class="version-info">Version 1.0 • Android</p>
+            </div>
+            
+            <div class="visual-section">
+                <div class="phone-mockup">
+                    <div class="screen">
+                        <div class="live-clock" id="liveClock">
+                            <div class="time" id="timeDisplay">12:00</div>
+                            <div class="seconds" id="secondsDisplay">00</div>
+                            <div class="date" id="dateDisplay">Monday, Jan 1</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
